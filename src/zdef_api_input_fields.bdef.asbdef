@@ -1,0 +1,6 @@
+abstract;
+strict ( 2 );
+with hierarchy;
+define behavior for ZDEF_API_INPUT_FIELDS //alias <alias_name>
+{
+}

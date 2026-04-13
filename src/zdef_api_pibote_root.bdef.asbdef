@@ -1,0 +1,16 @@
+managed implementation in class zbp_def_api_pibote_root unique;
+strict ( 2 );
+
+define behavior for ZDEF_API_PIBOTE_ROOT //alias <alias_name>
+persistent table ztabla_gen
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  //  create ( authorization : global );
+  //  update;
+  //  delete;
+  action action_1 deep parameter ZDEF_API_INPUT_FIELDS
+  deep result [1] ZDEF_API_MASSAGE;
+  field ( readonly ) user_name;
+}

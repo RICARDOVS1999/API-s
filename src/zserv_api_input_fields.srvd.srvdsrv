@@ -1,0 +1,4 @@
+@EndUserText.label: 'API CON parametros de entrada'
+define service ZSERV_API_INPUT_FIELDS {
+  expose ZDEF_API_PIBOTE_ROOT;
+}
