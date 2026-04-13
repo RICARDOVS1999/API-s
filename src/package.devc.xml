@@ -3,10 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DEVC>
-    <CTEXT>API con campos custon de entrada</CTEXT>
-    <LANGUAGE>E</LANGUAGE>
-    <MASTERLANG>E</MASTERLANG>
-    <SRV_CHECK>X</SRV_CHECK>
+    <CTEXT>Api ejemplo con campos de entarda</CTEXT>
    </DEVC>
   </asx:values>
  </asx:abap>
